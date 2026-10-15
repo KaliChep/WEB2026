@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Gradina</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <h1>Градина</h1>
+    <hr style="color: rgb(15, 104, 207); border-color: rgb(181, 5, 5);">
+    <a href="Domasna1.html" target=_self title="Почетна" >
+        <h2>Почетна</h2>
+    </a>
+    
+    <a href="Dnevna.html" target=_blank title="Дневна соба" >
+        <h3>Дневна соба</h3>
+    </a>
+    
+    <a href="Spalna.html" target=_blank title="Спална соба">
+        <h3>Спална соба</h3>
+    </a>
+    
+    <a href="Kujna.html" target=_blank title="Кујна">
+        <h3>Кујна</h3>
+    </a>
+    
+    
+    <a href="Gradina.html" target=_blank title="Градина">
+        <h3>Градина</h3>
+    </a>   
+    <br>
+    <hr style="color: rgb(15, 104, 207);">
+
+    <br>
+    <h2><b>Движење</b></h2>
+    <div>
+        <label for="dvizenje">Вклучен сензор: </label>
+        <input type="checkbox" id="dvizenje" name="dvizenje">
+    </div>
+    <div>
+        <label for="dbaterija">Батерија: </label>
+        <progress type="dbaterija" id="dbaterija" name="dbaterija" value="12" min="0" max="100"></progress>
+        <span>12%</span>
+    </div>
+    <p>
+        <label>Статус: <output>Детектиранo ДВИЖЕЊЕ!</output></label>
+    </p>
+    
+
+    <h2><b>UV</b></h2>
+    <div>
+        <label for="uv">Вклучен сензор: </label>
+        <input type="checkbox" id="uv" name="uv">
+    </div>
+    <div>
+        <label for="ubaterija">Батерија: </label>
+        <progress type="ubaterija" id="ubaterija" name="ubaterija" value="99" min="0" max="100"></progress>
+        <span>99%</span>
+    </div>
+    <p>
+        <label>UV index: <output>5</output></label>
+    </p>
+
+    <h2><b>Ветер</b></h2>
+    <div>
+        <label for="veter">Вклучен сензор: </label>
+        <input type="checkbox" id="veter" name="veter">
+    </div>
+    <div>
+        <label for="vbaterija">Батерија: </label>
+        <progress type="vbaterija" id="vbaterija" name="vbaterija" value="53" min="0" max="100"></progress>
+        <span>53%</span>
+    </div>
+    <div>
+        <label for="brzina">Брзина на ветер: </label>
+        <progress id="brzina" value="12" min="0" max="1000"></progress>
+        <span>Мирно: 12km/h</span>
+    </div>
+
+     <hr style="color: rgb(15, 104, 207);">
+
+     <p>Нотификации: </p>
+      <ul>
+            <li>Детектиранo ДВИЖЕЊЕ!</li>
+      </ul>
+
+
+        
+</body>

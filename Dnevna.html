@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Dnevna</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <h1>Дневна</h1>
+    <hr style="color: rgb(15, 104, 207); border-color: rgb(181, 5, 5);">
+    
+<a href="Domasna1.html" target=_self title="Почетна" >
+        <h2>Почетна</h2>
+    </a>
+    
+    <a href="Dnevna.html" target=_blank title="Дневна соба" >
+        <h3>Дневна соба</h3>
+    </a>
+    
+    <a href="Spalna.html" target=_blank title="Спална соба">
+        <h3>Спална соба</h3>
+    </a>
+    
+    <a href="Kujna.html" target=_blank title="Кујна">
+        <h3>Кујна</h3>
+    </a>
+    
+    
+    <a href="Gradina.html" target=_blank title="Градина">
+        <h3>Градина</h3>
+    </a>   
+    <br>
+    <hr style="color: rgb(15, 104, 207);">
+
+    <br>
+
+    <h2><b>Светло</b></h2>
+    <div>
+        <label for="Svetlo">Вклучено: </label>
+        <input type="checkbox" id="Svetlo" name="Svetlo">
+    </div>
+    <div>
+        <label for="sbaterija">Батерија: </label>
+        <progress type="sbaterija" id="sbaterija" name="sbaterija" value="72" min="0" max="100"></progress>
+        <span>72%</span>
+    </div>
+
+
+    <h2><b>Заклучена врата</b></h2>
+    <div>
+        <label for="vrata">Вклучен: </label>
+        <input type="checkbox" id="vrata" name="vrata">
+    </div>
+    <div>
+        <label for="vbaterija">Батерија: </label>
+        <progress type="vbaterija" id="vbaterija" name="vbaterija" value="47" min="0" max="100"></progress>
+        <span>47%</span>
+    </div>
+    <p>
+        <label>Статус: <output>ЗАКЛУЧЕНА</output></label>
+    </p>
+    
+
+    <h2><b>Влажност</b></h2>
+    <div>
+        <label for="Svetlo">Вклучено: </label>
+        <input type="checkbox" id="Svetlo" name="Svetlo">
+    </div>
+    <div>
+        <label for="vbaterija">Батерија: </label>
+        <progress type="vbaterija" id="vbaterija" name="sbaterija" value="33" min="0" max="100"></progress>
+        <span>33%</span>
+    </div>
+    <div>
+        <label for="Vlaznost">Влажност: </label>
+        <progress id="Vlaznost" value="45" max="100"></progress>
+        <span>45%</span>
+    </div>
+
+     <hr style="color: rgb(15, 104, 207);">
+
+     <details open>
+        <summary>Нотификации: </summary>
+        <p>
+            <ul>
+            <li>Влажноста надминува 30%, ПРЕМНОГУ ВЛАЖНО!</li>
+      </ul>
+        </p>
+    </details>
+
+</body>

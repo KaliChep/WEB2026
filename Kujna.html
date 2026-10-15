@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Kujna</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <h1>Кујна</h1>
+    <hr style="color: rgb(15, 104, 207); border-color: rgb(181, 5, 5);">
+    <a href="Domasna1.html" target=_self title="Почетна" >
+        <h2>Почетна</h2>
+    </a>
+    
+    <a href="Dnevna.html" target=_blank title="Дневна соба" >
+        <h3>Дневна соба</h3>
+    </a>
+    
+    <a href="Spalna.html" target=_blank title="Спална соба">
+        <h3>Спална соба</h3>
+    </a>
+    
+    <a href="Kujna.html" target=_blank title="Кујна">
+        <h3>Кујна</h3>
+    </a>
+    
+    
+    <a href="Gradina.html" target=_blank title="Градина">
+        <h3>Градина</h3>
+    </a>   
+    <br>
+    <hr style="color: rgb(15, 104, 207);">
+
+    <br>
+    <h2><b>Пламен</b></h2>
+    <div>
+        <label for="plamen">Вклучен сензор: </label>
+        <input type="checkbox" id="plamen" name="plamen">
+    </div>
+    <div>
+        <label for="pbaterija">Батерија: </label>
+        <progress type="pbaterija" id="pbaterija" name="sbaterija" value="64" min="0" max="100"></progress>
+        <span>64%</span>
+    </div>
+    <p>
+        <label>Статус: <output>Детектиран ПЛАМЕН!</output></label>
+    </p>
+    
+
+    <h2><b>Температура</b></h2>
+    <div>
+        <label for="temp">Вклучен сензор: </label>
+        <input type="checkbox" id="temp" name="temp">
+    </div>
+    <div>
+        <label for="tbaterija">Батерија: </label>
+        <progress type="tbaterija" id="tbaterija" name="tbaterija" value="77" min="0" max="100"></progress>
+        <span>77%</span>
+    </div>
+    <p>
+        <label>Температура: <output>24°C</output></label>
+    </p>
+
+    <h2><b>Квалитет на вода</b></h2>
+    <div>
+        <label for="voda">Вклучен сензор: </label>
+        <input type="checkbox" id="voda" name="voda">
+    </div>
+    <div>
+        <label for="cbaterija">Батерија: </label>
+        <progress type="cbaterija" id="cbaterija" name="cbaterija" value="26" min="0" max="100"></progress>
+        <span>26%</span>
+    </div>
+    <div>
+        <label for="kvalitet">Вредност: </label>
+        <progress id="kvalitet" value="78" min="0" max="1000"></progress>
+        <span>Безбедно: 78ppm</span>
+    </div>
+
+     <hr style="color: rgb(15, 104, 207);">
+
+     <p>Нотификации: </p>
+      <ul>
+            <li>Детектиран ПЛАМЕН!</li>
+      </ul>
+
+
+        
+</body>

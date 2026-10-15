@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Spalna</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <h1>Спална</h1>
+    <hr style="color: rgb(15, 104, 207); border-color: rgb(181, 5, 5);">
+    <a href="Domasna1.html" target=_self title="Почетна" >
+        <h2>Почетна</h2>
+    </a>
+    
+    <a href="Dnevna.html" target=_blank title="Дневна соба" >
+        <h3>Дневна соба</h3>
+    </a>
+    
+    <a href="Spalna.html" target=_blank title="Спална соба">
+        <h3>Спална соба</h3>
+    </a>
+    
+    <a href="Kujna.html" target=_blank title="Кујна">
+        <h3>Кујна</h3>
+    </a>
+    
+    
+    <a href="Gradina.html" target=_blank title="Градина">
+        <h3>Градина</h3>
+    </a>   
+    <br>
+    <hr style="color: rgb(15, 104, 207);">
+
+    <br>
+    <h2><b>Прозори</b></h2>
+    <div>
+        <label for="prozori">Вклучен сензор: </label>
+        <input type="checkbox" id="prozori" name="prozori">
+    </div>
+    <div>
+        <label for="pbaterija">Батерија: </label>
+        <progress type="pbaterija" id="pbaterija" name="sbaterija" value="64" min="0" max="100"></progress>
+        <span>64%</span>
+    </div>
+    <p>
+        <label>Статус: <output>ОТВОРЕНИ</output></label>
+    </p>
+    
+
+    <h2><b>Завеси</b></h2>
+    <div>
+        <label for="zavesi">Вклучен: </label>
+        <input type="checkbox" id="zavesi" name="zavesi">
+    </div>
+    <div>
+        <label for="zbaterija">Батерија: </label>
+        <progress type="zbaterija" id="zbaterija" name="zbaterija" value="47" min="0" max="100"></progress>
+        <span>47%</span>
+    </div>
+    
+    <div>
+        <label for="Otvaranje">Колку отворени: </label>
+            <select id="Otvaranje" name="Otvaranje">
+                <option value="zatvoreni">Затворени</option>
+                <option value="poluotvoreni">Полу отворени</option>
+                <option value="otvoreni">Целосно отворени</option>
+            </select>
+    </div>
+
+    <h2><b>CO2</b></h2>
+    <div>
+        <label for="co2">Вклучен сензор: </label>
+        <input type="checkbox" id="co2" name="co2">
+    </div>
+    <div>
+        <label for="cbaterija">Батерија: </label>
+        <progress type="cbaterija" id="cbaterija" name="cbaterija" value="97" min="0" max="100"></progress>
+        <span>97%</span>
+    </div>
+    <div>
+        <label for="vrednost">Вредност: </label>
+        <progress id="vrednost" value="45" min="0" max="10000"></progress>
+        <span>223ppm</span>
+    </div>
+
+     <hr style="color: rgb(15, 104, 207);">
+
+     <p>Нотификации: </p>
+      <ul>
+            <li>Прозорите се ОТВОРЕНИ!</li>
+      </ul>
+
+        
+</body>
