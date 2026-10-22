@@ -1,0 +1,159 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+body
+{
+    min-height: 100vh;
+    background: url(Sliki/pozadina2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header
+{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #efe5d0;
+    box-shadow: 0 5px 10px rgba(0,0,0,1);
+    padding: 0px 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+
+}
+
+header .logo
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: bolder;
+    font-size: 35px;
+    color: rgb(21, 49, 108);
+}
+
+header .logo img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+header .navbar ul{
+    list-style: none;
+
+}
+
+header .navbar ul li{
+    position: relative;
+    float: left;
+
+}
+
+header .navbar ul li a{
+    font-size: 25px;
+    font-style: italic;
+    padding: 30px;
+    color: rgb(117, 148, 215);
+    display: block;
+    width: 100%;
+}
+
+header .navbar ul li a:hover{
+    background: rgb(18, 37, 73);
+    color: rgb(251, 180, 86);
+}
+
+header .navbar ul li ul{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 200px;
+    background: #efe5d0;
+    display: none;
+    
+}
+
+header .navbar ul li ul li{
+    width: 100%;
+    border-top: 1px solid rgb(18, 37, 73);
+}
+
+header .navbar ul li ul li a {
+    padding: 12px 20px;
+    font-size: 20px;
+    width: 100%;
+}
+
+header .navbar ul li:hover > ul,
+header .navbar ul li:focus-within > ul{
+    display: block;
+}
+
+.tekst {
+
+    position: absolute;
+    top: 120px;
+    right: 30px;
+    width: 50%;
+    min-height: 400px;
+    padding: 20px;
+    color: rgb(21, 49, 108);
+}
+
+.tekst h1 {
+    position: absolute;
+    right: calc(100% + 50px);
+    top: 50%;
+    transform: translateY(-50%);
+    width: 660px;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 62px;
+    font-style: oblique;
+    text-decoration: underline dashed rgb(21, 49, 108) 3px;
+    text-underline-offset: 16px;
+    color: rgb(21, 49, 108);
+    z-index: 1;
+}
+
+.tekst h1::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url(Sliki/blob.png) center/contain no-repeat;
+    z-index: -1;
+}
+
+.section {
+    background: #efe5d0;
+    border-radius: 30px;
+    padding: 25px;
+    margin-bottom: 15px;
+}
+
+.section2 {
+
+    background: #dcb561;
+    border: 5px solid rgb(107, 2, 2);
+    border-radius: 30px;
+    padding: 25px;
+    margin-bottom: 15px;
+}
+
+.section3 {
+
+    background: #6797cb;
+    border: 5px solid rgb(0, 10, 67);
+    border-radius: 30px;
+    padding: 25px;
+    margin-bottom: 15px;
+}

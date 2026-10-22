@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Gradina</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Sobi.css">
+</head>
+
+<body>
+
+    <header>
+    <a href="#" class="logo"><img src="Sliki/icon.png" alt="Logo">Паметен дом</a>
+    
+    <nav class="navbar">
+        <ul>
+            <li><a href="Domasna2.html">Почетна</a></li>
+            <li><a href="#">Соби +</a>
+                <ul>
+                    <li><a href="Dnevna2.html">Дневна</a></li>
+                    <li><a href="Spalna2.html">Спална</a></li>
+                    <li><a href="Kujna2.html">Кујна</a></li>
+                    <li><a href="Gradina2.html">Градина</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Сензори +</a>
+                <ul>
+                    <li><a href="#">Температура</a></li>
+                    <li><a href="#">Влажност</a></li>
+                    <li><a href="#">Прозори</a></li>
+                    <li><a href="#">Завеси</a></li>
+                    <li><a href="#">CO2</a></li>
+                    <li><a href="#">Движење</a></li>
+                    <li><a href="#">Заклучено</a></li>
+                    <li><a href="#">Пламен</a></li>
+                    <li><a href="#">Квалитет на вода</a></li>
+                    <li><a href="#">UV</a></li>
+                    <li><a href="#">Ветер</a></li>
+                    
+                </ul>
+            </li>
+            <li><a href="Kontakt2.html">Контакт</a></li>
+            
+        </ul>
+    </nav>
+    
+    </header>
+
+    <div class="tekst">
+
+    <h1>Градина</h1>
+    <hr style="color: rgb(15, 104, 207); border-color: rgb(218, 218, 218);">
+    
+    <br>
+    <div class="section">
+    <h2><b>Движење</b></h2>
+    <div>
+        <label for="dvizenje">Вклучен сензор: </label>
+        <input type="checkbox" id="dvizenje" name="dvizenje">
+    </div>
+    <div>
+        <label for="dbaterija">Батерија: </label>
+        <progress type="dbaterija" id="dbaterija" name="dbaterija" value="12" min="0" max="100"></progress>
+        <span>12%</span>
+    </div>
+    <p>
+        <label>Статус: <output>Детектиранo ДВИЖЕЊЕ!</output></label>
+    </p>
+    </div>
+
+    <div class="section">
+    <h2><b>UV</b></h2>
+    <div>
+        <label for="uv">Вклучен сензор: </label>
+        <input type="checkbox" id="uv" name="uv">
+    </div>
+    <div>
+        <label for="ubaterija">Батерија: </label>
+        <progress type="ubaterija" id="ubaterija" name="ubaterija" value="99" min="0" max="100"></progress>
+        <span>99%</span>
+    </div>
+    <p>
+        <label>UV index: <output>5</output></label>
+    </p>
+    </div>
+
+    <div class="section">
+    <h2><b>Ветер</b></h2>
+    <div>
+        <label for="veter">Вклучен сензор: </label>
+        <input type="checkbox" id="veter" name="veter">
+    </div>
+    <div>
+        <label for="vbaterija">Батерија: </label>
+        <progress type="vbaterija" id="vbaterija" name="vbaterija" value="53" min="0" max="100"></progress>
+        <span>53%</span>
+    </div>
+    <div>
+        <label for="brzina">Брзина на ветер: </label>
+        <progress id="brzina" value="12" min="0" max="1000"></progress>
+        <span>Мирно: 12km/h</span>
+    </div>
+    </div>
+
+    <div class="section2">
+     <h3>Нотификации: </h3>
+      <ul>
+            <li>Детектиранo ДВИЖЕЊЕ!</li>
+      </ul>
+
+    </div>
+
+</div>        
+</body>

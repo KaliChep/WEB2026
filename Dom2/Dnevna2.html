@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Dnevna</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Sobi.css">
+</head>
+
+<body>
+
+     <header>
+    <a href="#" class="logo"><img src="Sliki/icon.png" alt="Logo">Паметен дом</a>
+    
+    <nav class="navbar">
+        <ul>
+            <li><a href="Domasna2.html">Почетна</a></li>
+            <li><a href="#">Соби +</a>
+                <ul>
+                    <li><a href="Dnevna2.html">Дневна</a></li>
+                    <li><a href="Spalna2.html">Спална</a></li>
+                    <li><a href="Kujna2.html">Кујна</a></li>
+                    <li><a href="Gradina2.html">Градина</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Сензори +</a>
+                <ul>
+                    <li><a href="#">Температура</a></li>
+                    <li><a href="#">Влажност</a></li>
+                    <li><a href="#">Прозори</a></li>
+                    <li><a href="#">Завеси</a></li>
+                    <li><a href="#">CO2</a></li>
+                    <li><a href="#">Движење</a></li>
+                    <li><a href="#">Заклучено</a></li>
+                    <li><a href="#">Пламен</a></li>
+                    <li><a href="#">Квалитет на вода</a></li>
+                    <li><a href="#">UV</a></li>
+                    <li><a href="#">Ветер</a></li>
+                    
+                </ul>
+            </li>
+            <li><a href="Kontakt2.html">Контакт</a></li>
+            
+        </ul>
+    </nav>
+    
+    </header>
+
+<div class="tekst">
+    <h1>Дневна</h1>
+    <hr style="color: rgb(15, 104, 207); border-color: rgb(218, 218, 218);">
+    
+
+
+    <br>
+    <div class="section">
+    <h2><b>Светло</b></h2>
+    <div>
+        <label for="Svetlo">Вклучено: </label>
+        <input type="checkbox" id="Svetlo" name="Svetlo">
+    </div>
+    <div>
+        <label for="sbaterija">Батерија: </label>
+        <progress type="sbaterija" id="sbaterija" name="sbaterija" value="72" min="0" max="100"></progress>
+        <span>72%</span>
+    </div>
+    </div>
+
+    <div class="section">
+    <h2><b>Заклучена врата</b></h2>
+    <div>
+        <label for="vrata">Вклучен: </label>
+        <input type="checkbox" id="vrata" name="vrata">
+    </div>
+    <div>
+        <label for="vbaterija">Батерија: </label>
+        <progress type="vbaterija" id="vbaterija" name="vbaterija" value="47" min="0" max="100"></progress>
+        <span>47%</span>
+    </div>
+    <p>
+        <label>Статус: <output>ЗАКЛУЧЕНА</output></label>
+    </p>
+    </div>
+
+    <div class="section">
+    <h2><b>Влажност</b></h2>
+    <div>
+        <label for="Svetlo">Вклучено: </label>
+        <input type="checkbox" id="Svetlo" name="Svetlo">
+    </div>
+    <div>
+        <label for="vbaterija">Батерија: </label>
+        <progress type="vbaterija" id="vbaterija" name="sbaterija" value="33" min="0" max="100"></progress>
+        <span>33%</span>
+    </div>
+    <div>
+        <label for="Vlaznost">Влажност: </label>
+        <progress id="Vlaznost" value="45" max="100"></progress>
+        <span>45%</span>
+    </div>
+    </div>
+
+
+    <div class="section2">
+    <h3>Нотификации: </h3>
+        <ul>
+            <li>Влажноста надминува 30%, ПРЕМНОГУ ВЛАЖНО!</li>
+        </ul>
+    </div>
+</div>
+</body>
